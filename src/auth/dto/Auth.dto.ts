@@ -1,11 +1,11 @@
 interface AuthValidateRequestProps {
   username: string;
   email: string;
-  userId: string;
+  userId: number;
 }
 
 export class AuthValidateResponse {
-  userId: string;
+  userId: number;
 
   username: string;
 
